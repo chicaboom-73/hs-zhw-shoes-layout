@@ -263,6 +263,24 @@ section a {
   color: #555;
   text-decoration: underline;
 }
+.two-column{
+  column-count: 2;
+}
+
+.featured-brands h2{
+  column-span:all;
+}
+.archive{
+  overflow: auto;
+  
+}
+.three-column{
+  column-count:3;
+
+}
+footer{
+  column-count: 4;
+}
 
 /********** Details **********/
 
