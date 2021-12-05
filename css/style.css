@@ -263,24 +263,6 @@ section a {
   color: #555;
   text-decoration: underline;
 }
-.two-column{
-  column-count: 2;
-}
-
-.featured-brands h2{
-  column-span:all;
-}
-.archive{
-  overflow: auto;
-  
-}
-.three-column{
-  column-count:3;
-
-}
-footer{
-  column-count: 4;
-}
 
 /********** Details **********/
 
@@ -321,3 +303,41 @@ footer a {
 }
 
 /* code examples copyright Jonathan Grover 2012 */
+.milk_text{
+  margin-top: .5em;
+}
+.feature{
+  float: left;
+  width: 66%;
+  
+}
+
+.archive{
+  float:left;
+  width: 32.1%;
+  margin-left: 1.1em;
+}
+
+.feature .archive::after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.two-column::after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.deals{
+  column-count: 3;
+  margin-top: 1em;
+}
+#details{
+  column-count: 3;
+}
+footer{
+text-align: center;
+}
+
